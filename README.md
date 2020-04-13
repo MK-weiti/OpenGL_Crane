@@ -1,8 +1,8 @@
-Autorzy:<br/>
-Adam Bieniek: elementy otoczenia, prototyp ramienia, szczegóły ramienia, kamera, ruch ramienia<br/>
+Autorzy (zamazane imienia i nazwiska innych autorów ze względu na ochronę danych osobowych): <br/>
+xx: elementy otoczenia, prototyp ramienia, szczegóły ramienia, kamera, ruch ramienia<br/>
 Mateusz Kordowski: podstawowe klasy łącznie z kontenerami, teksturami, shaderami, transformacjami, wierzchołkami, prymitywy i ich teksturowanie, prototyp pionu<br/>
-Filip Przybysz: skybox, szczegóły pionu, oświetlenie<br/>
-Maciej Puchalski: prototyp wysięgnika, szczegóły wysięgnika, ruch wysięgnika<br/>
+xx: skybox, szczegóły pionu, oświetlenie<br/>
+xx: prototyp wysięgnika, szczegóły wysięgnika, ruch wysięgnika<br/>
 
 Przykład dźwigu (koncepcja):<br/>
 <img src="Crane/readme/przykladowy_dzwig.jpg" alt="drawing" width=400/>
@@ -25,9 +25,11 @@ Z X / C V / B N - sterowanie składowymi R/G/B światła diffuse<br/>
 
 
 Inne uwagi<br/>
-W folderze Lib znajdują się już skompilowane biblioteki na platformę windows. 
+W folderze Lib znajdują się już skompilowane biblioteki na platformę windows. <br/>
 Dane biblioteki to:<br/>
 - SOIL
 - GLEW
 - GLFW
-Każdą z bibliotek można pobrać z odpowiedniej strony i samodzielnie ją skompilować (wymagany cmake lub Visual Studio).
+Każdą z bibliotek można pobrać z odpowiedniej strony i samodzielnie ją skompilować (wymagany cmake lub Visual Studio).<br/>
+Sam projekt jest jedynie na platformę windows do skompilowania w Visual Studio. <br/>
+Podczas prac nad projektem używano uczelnianego Gitlaba, więc pseudonimy autorów nie są mi znane.
