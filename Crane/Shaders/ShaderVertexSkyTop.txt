@@ -1,0 +1,18 @@
+#version 330 core
+
+layout (location = 0) in vec3 aPos;
+
+uniform mat4 model;
+uniform mat4 view;
+uniform mat4 projection;
+uniform mat4 moveMatrix;
+uniform mat4 scaleMatrix;
+uniform mat4 rotationMatrix;
+
+out vec2 TexCoord;
+
+void main()
+{
+	gl_Position = projection * view * model * moveMatrix * rotationMatrix * scaleMatrix * vec4(aPos, 1.0);
+	TexCoord = vec2((-aPos.z+1)/2, (aPos.x+1)/2);
+}

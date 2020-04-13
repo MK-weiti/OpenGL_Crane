@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source files\Block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\Camera.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\Crane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneHorizontalSection.cpp">
+      <Filter>Source Files\CraneHorizontalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneHorizontalSectionPart.cpp">
+      <Filter>Source Files\CraneHorizontalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneHorizontalSectionTexturedPart.cpp">
+      <Filter>Source Files\CraneHorizontalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneJibSection.cpp">
+      <Filter>Source Files\CraneJibSection</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneJibSectionLine.cpp">
+      <Filter>Source Files\CraneJibSection</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneJibSectionPart.cpp">
+      <Filter>Source Files\CraneJibSection</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneJibSectionWheel.cpp">
+      <Filter>Source Files\CraneJibSection</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneVerticalSection.cpp">
+      <Filter>Source Files\CraneVerticalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\CraneVerticalSectionPart.cpp">
+      <Filter>Source Files\CraneVerticalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\Cuboid.cpp">
+      <Filter>Source Files\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\Cylinder.cpp">
+      <Filter>Source Files\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\Ellipsoid.cpp">
+      <Filter>Source Files\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\GLFWWindow.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\Ground.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\Light.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\LightSource.cpp">
+      <Filter>Source Files\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\Primitive.cpp">
+      <Filter>Source Files\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\Shader.cpp">
+      <Filter>Source Files\OpenGLBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\ShaderContainer.cpp">
+      <Filter>Source Files\OpenGLBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\Skybox.cpp">
+      <Filter>Source Files\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\TextureContainer.cpp">
+      <Filter>Source Files\OpenGLBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\Transform.cpp">
+      <Filter>Source Files\OpenGLBasic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source files\VertexData3D.cpp">
+      <Filter>Source Files\OpenGLBasic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header files\Block.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Camera.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneHorizontalSection.h">
+      <Filter>Header Files\CraneHorizontalSection</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneHorizontalSectionPart.h">
+      <Filter>Header Files\CraneHorizontalSection</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneHorizontalSectionTexturedPart.h">
+      <Filter>Header Files\CraneHorizontalSection</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneJibSection.h">
+      <Filter>Header Files\CraneJibSection</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneJibSectionLine.h">
+      <Filter>Header Files\CraneJibSection</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneJibSectionPart.h">
+      <Filter>Header Files\CraneJibSection</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneJibSectionWheel.h">
+      <Filter>Header Files\CraneJibSection</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneVerticalSection.h">
+      <Filter>Header Files\CraneVerticalSection</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\CraneVerticalSectionPart.h">
+      <Filter>Header Files\CraneVerticalSection</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Cuboid.h">
+      <Filter>Header Files\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Cylinder.h">
+      <Filter>Header Files\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Ellipsoid.h">
+      <Filter>Header Files\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\GLFWWindow.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Ground.h">
+      <Filter>Header Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Light.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\LightSource.h">
+      <Filter>Header Files\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Primitive.h">
+      <Filter>Header Files\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Shader.h">
+      <Filter>Header Files\OpenGLBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\ShaderContainer.h">
+      <Filter>Header Files\OpenGLBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Skybox.h">
+      <Filter>Header Files\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\TextureContainer.h">
+      <Filter>Header Files\OpenGLBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\Transform.h">
+      <Filter>Header Files\OpenGLBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="Header files\VertexData3D.h">
+      <Filter>Header Files\OpenGLBasic</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\blockSide.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\blockTop.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\boring_ground.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\concrete-texture1600x1600.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\crane_beam.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\darkcity_bk.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\darkcity_ft.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\darkcity_lf.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\darkcity_rt.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\darkcity_up.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\Glass.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\MetalBeam.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\MetalRivets.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Textures\metalTexture.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Indices\BlockInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Vertices\BlockVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Shaders\ColorShaderFragment.txt">
+      <Filter>Data\Shaders</Filter>
+    </Text>
+    <Text Include="Indices\GroundInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Indices\HorizontalCraneAtachInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Indices\HorizontalCraneBaseInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Indices\HorizontalCraneBasketInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Indices\HorizontalCraneCabinInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Indices\HorizontalCraneEndInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Indices\HorizontalCraneGlassInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Indices\HorizontalCraneMidInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Indices\HorizontalCranePartInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Indices\HorizontalCraneWeightInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Indices\JibCraneLineEndInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Indices\JibCraneLinePartInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Indices\JibCranePartInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Indices\JibCraneRailInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Indices\JibCraneWheelInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Vertices\GroundVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\HorizontalCraneAtachVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\HorizontalCraneBaseVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\HorizontalCraneBasketVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\HorizontalCraneCabinVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\HorizontalCraneEndVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\HorizontalCraneGlassVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\HorizontalCraneMidVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\HorizontalCranePartVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\HorizontalCraneWeightVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\JibCraneLineEndVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\JibCraneLinePartVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\JibCranePartVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\JibCraneRailVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Vertices\JibCraneWheelVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Shaders\ShaderVertexFragm.txt">
+      <Filter>Data\Shaders</Filter>
+    </Text>
+    <Text Include="Shaders\ShaderVertexHorizontal.txt">
+      <Filter>Data\Shaders</Filter>
+    </Text>
+    <Text Include="Shaders\ShaderVertexPersp.txt">
+      <Filter>Data\Shaders</Filter>
+    </Text>
+    <Text Include="Shaders\ShaderVertexSkyFrontBack.txt">
+      <Filter>Data\Shaders</Filter>
+    </Text>
+    <Text Include="Shaders\ShaderVertexSkyRightLeft.txt">
+      <Filter>Data\Shaders</Filter>
+    </Text>
+    <Text Include="Shaders\ShaderVertexSkyTop.txt">
+      <Filter>Data\Shaders</Filter>
+    </Text>
+    <Text Include="Shaders\SimpleShaderFragment.txt">
+      <Filter>Data\Shaders</Filter>
+    </Text>
+    <Text Include="Shaders\SimpleShaderVertex.txt">
+      <Filter>Data\Shaders</Filter>
+    </Text>
+    <Text Include="Indices\SkyInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Vertices\SkyVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Shaders\TextureShaderFragment.txt">
+      <Filter>Data\Shaders</Filter>
+    </Text>
+    <Text Include="Indices\VerticalCranePartInd.txt">
+      <Filter>Data\Indices</Filter>
+    </Text>
+    <Text Include="Vertices\VerticalCranePartVert.txt">
+      <Filter>Data\Vertices</Filter>
+    </Text>
+    <Text Include="Shaders\ShaderVertexGround.txt">
+      <Filter>Data\Shaders</Filter>
+    </Text>
+    <Text Include="Shaders\ShaderFragmentSky.txt">
+      <Filter>Data\Shaders</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{01dc204a-be37-48c4-a052-7e01f7a37202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{629a4e29-1801-48b3-93e3-549c9e2327bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ba50920a-263e-4b72-94cb-74e023cca854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4cce05d7-7149-4dc5-a0e6-06964828e902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Shaders">
+      <UniqueIdentifier>{59206a04-0f13-4f48-96f0-2d6981af0b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Indices">
+      <UniqueIdentifier>{62d5877b-dc8e-4d2e-bbcb-92b1647a38d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data\Vertices">
+      <UniqueIdentifier>{4ab8e25b-acb2-4221-b664-e5177eb71039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CraneHorizontalSection">
+      <UniqueIdentifier>{f7d0db91-e2c9-4758-9dac-bad5a2e91d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CraneJibSection">
+      <UniqueIdentifier>{16dd8255-2146-4a8f-b782-69bba0ffc11c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CraneVerticalSection">
+      <UniqueIdentifier>{0f4daa88-0f9c-400b-836f-171f717d2793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Environment">
+      <UniqueIdentifier>{076119a9-db31-4722-a911-563b2b0fccab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lighting">
+      <UniqueIdentifier>{97c889f1-b500-4da8-a413-ef93e07acb3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OpenGLBasic">
+      <UniqueIdentifier>{5d9859b7-6b5e-4023-839d-366548e2f884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Primitives">
+      <UniqueIdentifier>{ce8a5862-5037-4c91-a981-bd4ba32ce648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\View">
+      <UniqueIdentifier>{9051d8ac-081e-424b-b09e-4717cf28b011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View">
+      <UniqueIdentifier>{022afd76-18a4-4940-8310-09a44bcf4c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CraneHorizontalSection">
+      <UniqueIdentifier>{72bbd7ea-0107-4065-9e48-7f345aae1e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CraneJibSection">
+      <UniqueIdentifier>{92f28efc-70c6-4310-a7df-e423e4745903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CraneVerticalSection">
+      <UniqueIdentifier>{3d7f1d39-e2ef-4be9-9117-cf6b51308b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Environment">
+      <UniqueIdentifier>{da396d30-5d03-427d-868c-885ff4c3e537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lighting">
+      <UniqueIdentifier>{c629c0f4-0bee-4e4a-953a-65b3798a415c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OpenGLBasic">
+      <UniqueIdentifier>{38f397bd-9ea7-43ee-8c39-92ec8216a3e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Primitives">
+      <UniqueIdentifier>{43e807ac-3d53-4937-9e88-1b03850ba17f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Crane.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

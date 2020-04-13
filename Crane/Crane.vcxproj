@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source files\Light.cpp" />
+    <ClCompile Include="Source files\Block.cpp" />
+    <ClCompile Include="Source files\Camera.cpp" />
+    <ClCompile Include="Source files\Crane.cpp" />
+    <ClCompile Include="Source files\CraneHorizontalSection.cpp" />
+    <ClCompile Include="Source files\CraneHorizontalSectionPart.cpp" />
+    <ClCompile Include="Source files\CraneHorizontalSectionTexturedPart.cpp" />
+    <ClCompile Include="Source files\CraneJibSection.cpp" />
+    <ClCompile Include="Source files\CraneJibSectionPart.cpp" />
+    <ClCompile Include="Source files\CraneJibSectionLine.cpp" />
+    <ClCompile Include="Source files\CraneJibSectionWheel.cpp" />
+    <ClCompile Include="Source files\CraneVerticalSection.cpp" />
+    <ClCompile Include="Source files\CraneVerticalSectionPart.cpp" />
+    <ClCompile Include="Source files\Cuboid.cpp" />
+    <ClCompile Include="Source files\Cylinder.cpp" />
+    <ClCompile Include="Source files\GLFWWindow.cpp" />
+    <ClCompile Include="Source files\LightSource.cpp" />
+    <ClCompile Include="Source files\Primitive.cpp" />
+    <ClCompile Include="Source files\Ground.cpp" />
+    <ClCompile Include="Source files\Shader.cpp" />
+    <ClCompile Include="Source files\ShaderContainer.cpp" />
+    <ClCompile Include="Source files\Skybox.cpp" />
+    <ClCompile Include="Source files\Ellipsoid.cpp" />
+    <ClCompile Include="Source files\TextureContainer.cpp" />
+    <ClCompile Include="Source files\Transform.cpp" />
+    <ClCompile Include="Source files\VertexData3D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header files\Block.h" />
+    <ClInclude Include="Header files\Camera.h" />
+    <ClInclude Include="Header files\CraneHorizontalSection.h" />
+    <ClInclude Include="Header files\CraneHorizontalSectionPart.h" />
+    <ClInclude Include="Header files\CraneHorizontalSectionTexturedPart.h" />
+    <ClInclude Include="Header files\CraneJibSectionPart.h" />
+    <ClInclude Include="Header files\CraneJibSectionLine.h" />
+    <ClInclude Include="Header files\CraneJibSectionWheel.h" />
+    <ClInclude Include="Header files\CraneJibSection.h" />
+    <ClInclude Include="Header files\CraneVerticalSection.h" />
+    <ClInclude Include="Header files\Cuboid.h" />
+    <ClInclude Include="Header files\Cylinder.h" />
+    <ClInclude Include="Header files\GLFWWindow.h" />
+    <ClInclude Include="Header files\Primitive.h" />
+    <ClInclude Include="Header files\Ground.h" />
+    <ClInclude Include="Header files\ShaderContainer.h" />
+    <ClInclude Include="Header files\Skybox.h" />
+    <ClInclude Include="Header files\Ellipsoid.h" />
+    <ClInclude Include="Header files\TextureContainer.h" />
+    <ClInclude Include="Header files\Light.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="Header files\Shader.h" />
+    <ClInclude Include="Header files\Transform.h" />
+    <ClInclude Include="Header files\VertexData3D.h" />
+    <ClInclude Include="Header files\CraneVerticalSectionPart.h" />
+    <ClInclude Include="Header files\LightSource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Indices\BlockInd.txt" />
+    <Text Include="Indices\GroundInd.txt" />
+    <Text Include="Indices\HorizontalCraneBasketInd.txt" />
+    <Text Include="Indices\HorizontalCraneGlassInd.txt" />
+    <Text Include="Indices\JibCraneLinePartInd.txt" />
+    <Text Include="Indices\SkyInd.txt" />
+    <Text Include="Shaders\ColorShaderFragment.txt" />
+    <Text Include="Indices\HorizontalCraneAtachInd.txt" />
+    <Text Include="Shaders\ShaderFragmentSky.txt" />
+    <Text Include="Shaders\ShaderVertexGround.txt" />
+    <Text Include="Shaders\ShaderVertexSkyFrontBack.txt" />
+    <Text Include="Shaders\ShaderVertexSkyRightLeft.txt" />
+    <Text Include="Shaders\ShaderVertexSkyTop.txt" />
+    <Text Include="Shaders\TextureShaderFragment.txt" />
+    <Text Include="Vertices\BlockVert.txt" />
+    <Text Include="Vertices\GroundVert.txt" />
+    <Text Include="Vertices\HorizontalCraneAtachVert.txt" />
+    <Text Include="Indices\HorizontalCraneBaseInd.txt" />
+    <Text Include="Vertices\HorizontalCraneBaseVert.txt" />
+    <Text Include="Indices\HorizontalCraneCabinInd.txt" />
+    <Text Include="Vertices\HorizontalCraneBasketVert.txt" />
+    <Text Include="Vertices\HorizontalCraneCabinVert.txt" />
+    <Text Include="Indices\HorizontalCraneEndInd.txt" />
+    <Text Include="Vertices\HorizontalCraneEndVert.txt" />
+    <Text Include="Indices\HorizontalCraneMidInd.txt" />
+    <Text Include="Vertices\HorizontalCraneGlassVert.txt" />
+    <Text Include="Vertices\HorizontalCraneMidVert.txt" />
+    <Text Include="Indices\HorizontalCranePartInd.txt" />
+    <Text Include="Vertices\HorizontalCranePartVert.txt" />
+    <Text Include="Indices\HorizontalCraneWeightInd.txt" />
+    <Text Include="Vertices\HorizontalCraneWeightVert.txt" />
+    <Text Include="Indices\JibCraneLineEndInd.txt" />
+    <Text Include="Vertices\JibCraneLineEndVert.txt" />
+    <Text Include="Indices\JibCranePartInd.txt" />
+    <Text Include="Vertices\JibCranePartVert.txt" />
+    <Text Include="Indices\JibCraneRailInd.txt" />
+    <Text Include="Vertices\JibCraneRailVert.txt" />
+    <Text Include="Vertices\JibCraneWheelVert.txt" />
+    <Text Include="Indices\JibCraneWheelInd.txt" />
+    <Text Include="Vertices\JibCraneLinePartVert.txt" />
+    <Text Include="Shaders\ShaderVertexFragm.txt" />
+    <Text Include="Shaders\ShaderVertexHorizontal.txt" />
+    <Text Include="Shaders\SimpleShaderVertex.txt" />
+    <Text Include="Shaders\SimpleShaderFragment.txt" />
+    <Text Include="Shaders\ShaderVertexPersp.txt" />
+    <Text Include="Vertices\SkyVert.txt" />
+    <Text Include="Vertices\VerticalCranePartVert.txt" />
+    <Text Include="Indices\VerticalCranePartInd.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Crane.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Textures\blockSide.jpg" />
+    <Image Include="Textures\blockTop.jpg" />
+    <Image Include="Textures\boring_ground.jpg" />
+    <Image Include="Textures\concrete-texture1600x1600.jpg" />
+    <Image Include="Textures\crane_beam.jpg" />
+    <Image Include="Textures\darkcity_bk.jpg" />
+    <Image Include="Textures\darkcity_ft.jpg" />
+    <Image Include="Textures\darkcity_lf.jpg" />
+    <Image Include="Textures\darkcity_rt.jpg" />
+    <Image Include="Textures\darkcity_up.jpg" />
+    <Image Include="Textures\Glass.jpg" />
+    <Image Include="Textures\MetalBeam.jpg" />
+    <Image Include="Textures\MetalRivets.jpg" />
+    <Image Include="Textures\metalTexture.jpg" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{3DE7DA73-3DB9-4781-884F-379906B2DB75}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Crane</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)Header files;$(SolutionDir)\include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\Lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);</LibraryPath>
+    <SourcePath>$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)Header files;$(SolutionDir)\include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)\Lib;$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);</LibraryPath>
+    <SourcePath>$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;opengl32.lib;glfw3.lib;glew32s.lib;soil.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>msvcrt.lib; libcmt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>legacy_stdio_definitions.lib;opengl32.lib;glfw3.lib;glew32s.lib;soil.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <IgnoreSpecificDefaultLibraries>msvcrt.lib; libcmt.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
